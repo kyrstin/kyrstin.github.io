@@ -1,6 +1,28 @@
 @import "reset";
 @import "syntax";
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+h1,
+h2,
+h3,
+h4,
+h5,
+li,
+p,
+input.form-control,
+label,
+.page-header > h1 {
+    font-family: 'Droid Serif', serif;
+}
 
-body {
-    background: white;
+.page-header > h1 {
+    font-weight: 700
+}
+
+label {
+    margin-top: 20px;
+    font-size: 130%;
+}
+
+.btn-block {
+    margin-top: 60px;
 }
